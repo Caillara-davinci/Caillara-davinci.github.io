@@ -259,3 +259,8 @@ class Tienda {
 }
 
 const tienda = new Tienda();
+
+function toggleMenu() {
+    const navCategorias = document.querySelector('.navCategorias');
+    navCategorias.classList.toggle('active');
+}
