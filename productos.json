@@ -4,7 +4,7 @@
         "nombre": "Remera Negra",
         "descripcion": "Remera de algodón negro, ideal para combinar con cualquier estilo. Perfecta para un look casual.",
         "precio": 35000,
-        "imagen": "images/mujer/remeraNegraMujer.jpg",
+        "imagen": "https://github.com/user-attachments/assets/4a0fa29c-c12d-43ce-ba39-d69fa5d347f7",
         "categoria": "Remera"
     },
     {
@@ -12,7 +12,7 @@
         "nombre": "Remera Beige",
         "descripcion": "Remera de algodón en tono beige, cómoda y versátil para cualquier ocasión.",
         "precio": 35000,
-        "imagen": "images/mujer/remeraBeigeMujer.jpg",
+        "imagen": "https://github.com/user-attachments/assets/7e26518d-abd5-4a9a-a655-05276f539fe5",
         "categoria": "Remera"
     },
     {
@@ -20,7 +20,7 @@
         "nombre": "Remera Verde",
         "descripcion": "Remera en un vibrante color verde, perfecta para destacar en tu outfit.",
         "precio": 35000,
-        "imagen": "images/mujer/remeraVerdeMujer.jpg",
+        "imagen": "https://github.com/user-attachments/assets/f0d30b9e-eeab-403a-beb7-cefd4fcb0b09",
         "categoria": "Remera"
     },
     {
@@ -28,7 +28,7 @@
         "nombre": "Chomba Blanca",
         "descripcion": "Chomba blanca clásica de tejido piqué, ideal para un look casual o semiformal.",
         "precio": 45000,
-        "imagen": "images/mujer/chombaBlancaMujer.jpg",
+        "imagen": "https://github.com/user-attachments/assets/ac10b4d5-679b-41e6-a74e-7dfec21e0d58",
         "categoria": "Chomba"
     },
     {
@@ -36,7 +36,7 @@
         "nombre": "Chomba Negra",
         "descripcion": "Chomba negra elegante, perfecta para un estilo moderno y sofisticado.",
         "precio": 45000,
-        "imagen": "images/mujer/chombaNegraMujer.jpg",
+        "imagen": "https://github.com/user-attachments/assets/a21e9fbb-01c1-4e7a-9db5-17fd9676554b",
         "categoria": "Chomba"
     },
     {
@@ -44,7 +44,7 @@
         "nombre": "Chomba Marrón",
         "descripcion": "Chomba marrón cálida, ideal para combinar con tonos neutros y naturales.",
         "precio": 45000,
-        "imagen": "images/mujer/chombaMarronMujer.jpg",
+        "imagen": "https://github.com/user-attachments/assets/a78ea7a9-8174-45fd-8e7a-b163f79a561c",
         "categoria": "Chomba"
     },
     {
@@ -52,7 +52,7 @@
         "nombre": "Chomba Beige",
         "descripcion": "Chomba beige atemporal, un básico imprescindible para cualquier guardarropa.",
         "precio": 45000,
-        "imagen": "images/mujer/chombaBeigeMujer.jpg",
+        "imagen": "https://github.com/user-attachments/assets/9d10c69f-0534-47e4-9e1f-aeffed85e415",
         "categoria": "Chomba"
     },
     {
@@ -60,7 +60,7 @@
         "nombre": "Chomba Verde",
         "descripcion": "Chomba verde moderna, diseñada para un look fresco y casual.",
         "precio": 47000,
-        "imagen": "images/mujer/chombaVerdeMujer.jpg",
+        "imagen": "https://github.com/user-attachments/assets/ee93882f-bad2-49a5-93c2-d84fe83a69cc",
         "categoria": "Chomba"
     },
     {
@@ -68,7 +68,7 @@
         "nombre": "Camisa Rostro",
         "descripcion": "Camisa con diseño de rostro abstracto, única y llamativa, ideal para destacar.",
         "precio": 52000,
-        "imagen": "images/mujer/camisaRostroMujer.jpg",
+        "imagen": "https://github.com/user-attachments/assets/d1a81e02-5e32-48de-bf6b-34c3e2467dba",
         "categoria": "Camisa"
     },
     {
@@ -76,7 +76,7 @@
         "nombre": "Camisa Blanca",
         "descripcion": "Camisa blanca de corte clásico, indispensable para un estilo formal o casual.",
         "precio": 52000,
-        "imagen": "images/mujer/camisaBlancaMujer.jpg",
+        "imagen": "https://github.com/user-attachments/assets/9bb193cd-91e1-4913-9ff3-43fd3e29d61b",
         "categoria": "Camisa"
     },
     {
@@ -84,7 +84,7 @@
         "nombre": "Camisa Celeste",
         "descripcion": "Camisa celeste suave, ideal para un look fresco.",
         "precio": 55000,
-        "imagen": "images/mujer/camisaCelesteMujer.jpg",
+        "imagen": "https://github.com/user-attachments/assets/60090070-0b9c-4349-9e42-ce592b45d47d",
         "categoria": "Camisa"
     },
     {
@@ -92,7 +92,7 @@
         "nombre": "Camisa Amarilla",
         "descripcion": "Camisa amarilla vibrante, perfecta para un estilo alegre y llamativo.",
         "precio": 55000,
-        "imagen": "images/mujer/camisaAmarillaMujer.jpg",
+        "imagen": "https://github.com/user-attachments/assets/f96c2b71-3bca-447a-b061-65c4901edede",
         "categoria": "Camisa"
     },
     {
@@ -100,7 +100,7 @@
         "nombre": "Camisa Cuadrille",
         "descripcion": "Camisa de diseño cuadrillé, clásica y moderna al mismo tiempo.",
         "precio": 57000,
-        "imagen": "images/mujer/camisaCuadrilleMujer.jpg",
+        "imagen": "https://github.com/user-attachments/assets/1f58c829-fe27-48d2-8b8a-c826b867a473",
         "categoria": "Camisa"
     },
     {
@@ -108,7 +108,7 @@
         "nombre": "Camisa BaW",
         "descripcion": "Camisa en blanco y negro con patrón único, ideal para un look sofisticado.",
         "precio": 57000,
-        "imagen": "images/mujer/camisaWhiteBlackMujer.jpg",
+        "imagen": "https://github.com/user-attachments/assets/366f706f-63c5-4267-bd2c-d7c4f5960f60",
         "categoria": "Camisa"
     }
 ]
