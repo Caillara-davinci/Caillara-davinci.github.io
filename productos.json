@@ -1,10 +1,114 @@
 [
     {
         "id": 1,
-        "nombre": "Producto",
-        "descripcion": "Descripción del producto",
-        "precio": 0,
-        "imagen": "images/producto-de-ejemplo.jpg",
-        "categoría": "Nombre de la categoría"
+        "nombre": "Remera Negra",
+        "descripcion": "Remera de algodón negro, ideal para combinar con cualquier estilo. Perfecta para un look casual.",
+        "precio": 35000,
+        "imagen": "images/mujer/remeraNegraMujer.jpg",
+        "categoria": "Remera"
+    },
+    {
+        "id": 2,
+        "nombre": "Remera Beige",
+        "descripcion": "Remera de algodón en tono beige, cómoda y versátil para cualquier ocasión.",
+        "precio": 35000,
+        "imagen": "images/mujer/remeraBeigeMujer.jpg",
+        "categoria": "Remera"
+    },
+    {
+        "id": 3,
+        "nombre": "Remera Verde",
+        "descripcion": "Remera en un vibrante color verde, perfecta para destacar en tu outfit.",
+        "precio": 35000,
+        "imagen": "images/mujer/remeraVerdeMujer.jpg",
+        "categoria": "Remera"
+    },
+    {
+        "id": 4,
+        "nombre": "Chomba Blanca",
+        "descripcion": "Chomba blanca clásica de tejido piqué, ideal para un look casual o semiformal.",
+        "precio": 45000,
+        "imagen": "images/mujer/chombaBlancaMujer.jpg",
+        "categoria": "Chomba"
+    },
+    {
+        "id": 5,
+        "nombre": "Chomba Negra",
+        "descripcion": "Chomba negra elegante, perfecta para un estilo moderno y sofisticado.",
+        "precio": 45000,
+        "imagen": "images/mujer/chombaNegraMujer.jpg",
+        "categoria": "Chomba"
+    },
+    {
+        "id": 6,
+        "nombre": "Chomba Marrón",
+        "descripcion": "Chomba marrón cálida, ideal para combinar con tonos neutros y naturales.",
+        "precio": 45000,
+        "imagen": "images/mujer/chombaMarronMujer.jpg",
+        "categoria": "Chomba"
+    },
+    {
+        "id": 7,
+        "nombre": "Chomba Beige",
+        "descripcion": "Chomba beige atemporal, un básico imprescindible para cualquier guardarropa.",
+        "precio": 45000,
+        "imagen": "images/mujer/chombaBeigeMujer.jpg",
+        "categoria": "Chomba"
+    },
+    {
+        "id": 8,
+        "nombre": "Chomba Verde",
+        "descripcion": "Chomba verde moderna, diseñada para un look fresco y casual.",
+        "precio": 47000,
+        "imagen": "images/mujer/chombaVerdeMujer.jpg",
+        "categoria": "Chomba"
+    },
+    {
+        "id": 9,
+        "nombre": "Camisa Rostro",
+        "descripcion": "Camisa con diseño de rostro abstracto, única y llamativa, ideal para destacar.",
+        "precio": 52000,
+        "imagen": "images/mujer/camisaRostroMujer.jpg",
+        "categoria": "Camisa"
+    },
+    {
+        "id": 10,
+        "nombre": "Camisa Blanca",
+        "descripcion": "Camisa blanca de corte clásico, indispensable para un estilo formal o casual.",
+        "precio": 52000,
+        "imagen": "images/mujer/camisaBlancaMujer.jpg",
+        "categoria": "Camisa"
+    },
+    {
+        "id": 11,
+        "nombre": "Camisa Celeste",
+        "descripcion": "Camisa celeste suave, ideal para un look fresco.",
+        "precio": 55000,
+        "imagen": "images/mujer/camisaCelesteMujer.jpg",
+        "categoria": "Camisa"
+    },
+    {
+        "id": 12,
+        "nombre": "Camisa Amarilla",
+        "descripcion": "Camisa amarilla vibrante, perfecta para un estilo alegre y llamativo.",
+        "precio": 55000,
+        "imagen": "images/mujer/camisaAmarillaMujer.jpg",
+        "categoria": "Camisa"
+    },
+    {
+        "id": 13,
+        "nombre": "Camisa Cuadrille",
+        "descripcion": "Camisa de diseño cuadrillé, clásica y moderna al mismo tiempo.",
+        "precio": 57000,
+        "imagen": "images/mujer/camisaCuadrilleMujer.jpg",
+        "categoria": "Camisa"
+    },
+    {
+        "id": 14,
+        "nombre": "Camisa BaW",
+        "descripcion": "Camisa en blanco y negro con patrón único, ideal para un look sofisticado.",
+        "precio": 57000,
+        "imagen": "images/mujer/camisaWhiteBlackMujer.jpg",
+        "categoria": "Camisa"
     }
 ]
