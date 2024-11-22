@@ -197,14 +197,18 @@ header {
   .orderBy select {
     padding: 2px 4px;
   }
-
+  @media(max-width: 500px) {
+    .orderBy{
+      flex-direction: column;
+    }
+  }
 
   /* Productos */
 
   #productos {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(4, 180px);
+    grid-template-columns: repeat(auto-fit, minmax(180px, 200px));
     gap: 2.5em;
     margin-top: 1em;
   }
