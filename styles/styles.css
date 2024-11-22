@@ -33,38 +33,68 @@ header {
   
 
   /* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  padding: 16px;
+}
 
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2em;
-    /* border-top: 2px white solid; */
-    padding: 16px;
+.navCategorias { 
+  display: flex;
+  list-style: none;
+  gap: 1.5em;
+}
+
+.navCategorias li {
+  border: solid 1px #ddd;
+  padding: 8px 16px;
+}
+
+.navCategorias li a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menu-toggle {
+  display: none;  
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+      display: block;
   }
-  
+
   .navCategorias {
-    list-style: none;
-    display: flex;
-    gap: 1.5em;
-  }
-  
-  .navCategorias li {
-    border: solid 1px #ddd;
-    padding: 8px 16px;
-  }
-  .navCategorias li a {
-    color: #ddd;
-    text-decoration: none;
-    transition: color 0.3s ease;
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 50px; 
+      left: -500px;
+      transform: translateX(-100%);
+      transition: transform 0.3s ease-in-out;
+      z-index: 10; 
+      padding: 40px 24px;
+      height: 100%;
   }
 
-  .categoriaTodos {
-    background-color: #ddd;
+  .navCategorias.active {
+      left: 0;
+      transform: translateX(0); /* Al activar el menú, se mueve a la posición normal */
   }
-  .categoriaTodos .a-todos{
-    color: #333;
+
+  .navCategorias li {
+      text-align: center;
+      border: none;
+      padding: 12px 0;
   }
+
+  .navCategorias li a {
+      color: #fff;
+  }
+}
 
   
   /* Cart Icono y Total */
