@@ -1,1 +1,348 @@
+/* Versión 1.0.0 */
+@charset "utf-8";
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+
+/*	General */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* Header */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0 1.5em 0 1.5em;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+  
+
+  /* Navbar */
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    /* border-top: 2px white solid; */
+    padding: 16px;
+  }
+  
+  .navCategorias {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+  }
+  
+  .navCategorias li {
+    border: solid 1px #ddd;
+    padding: 8px 16px;
+  }
+  .navCategorias li a {
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .categoriaTodos {
+    background-color: #ddd;
+  }
+  .categoriaTodos .a-todos{
+    color: #333;
+  }
+
+  
+  /* Cart Icono y Total */
+
+  .cart {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    color: #fff;
+  }
+  .cart div p {
+    margin: 0;
+    color: #ededed; 
+  }
+  .cartIcon {
+    position: relative;
+    cursor: pointer;
+  }
+  .cartIcon i {
+    color: #fff;
+    font-size: 32px;
+  }
+  .cartCount {
+    position: absolute;
+    top: -4px;
+    right: -8px;
+    background-color: #316601;
+    color: white;
+    border-radius: 50%;
+    padding: 0.2em 0.5em;
+    font-size: 14px;
+  }
+  #cartDetail {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 24px 0 24px 0;
+  }
+  .cartImg {
+    width: 10%;
+    height: 10%;
+    margin-right: 24px;
+  }
+  .cartItem {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  .contentProductCart {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 32px;
+  }
+  .boxTextItems {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .boxMinusPlus {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .boxMinusPlus span {
+    text-align: center;
+    border: solid 1px black;
+    font-size: 18px;
+    padding: 4px 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .btnEliminar {
+    background-color: #f67070;
+    color: white;
+    font-weight: bold;
+  }
+  .footerCart {
+    padding: 24px;
+  }
+  .footerCart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .footerCart button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  #cartModal {
+    position: relative;
+  }
+  .cerrarDialog {
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #333333;
+    color: white;
+    font-weight: bold;
+  }
+
+/* Main Section */
+
+  main {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  main h2 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  /* Filtro */
+
+  .orderBy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  .orderBy select {
+    padding: 2px 4px;
+  }
+
+
+  /* Productos */
+
+  #productos {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 180px);
+    gap: 2.5em;
+    margin-top: 1em;
+  }
+ .productCard {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 0 0 16px 0;
+    text-align: center;
+  }
+  .productCard > div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 16px 0 16px;
+  }
+  .productCard > div button {
+    padding: 8px 0 8px 0;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #333;
+  }
+  .productCard > div .price {
+    font-size: 24px;
+  }
+  .productCard img {
+    width: 100%;
+    margin-bottom: 16px;
+    height: 230px;
+  }
+
+
+  /* Footer */
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+    margin-top: 2em;
+  }
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  footer ul li {
+    margin: 0.5em 0;
+  }
+  footer ul li a {
+    color: #c8c8c8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  footer ul li a:hover {
+    color: #c8c8c8;
+  }
+
+
+  /* Dialog */
+
+  dialog {
+    width: 50%;
+    height: 80%;
+    margin: 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1000; 
+  }
+  /* Estilo para el fondo del modal */
+  dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro transparente */
+    z-index: -1; /* Asegura que el fondo esté detrás del modal */
+  }
+  dialog button {
+    padding: 8px 16px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    color: black;
+  }
+  dialog h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+
+
+/* Detalle */
+#productDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+#productDetail img {
+    width: 80%;
+    max-width: 250px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+#productDetail h3 {
+    font-size: 1.25em;
+    color: #555;
+    text-align: center;
+    margin: 0;
+}
+#productDetail p {
+    margin: 5px 0;
+    color: #666;
+    text-align: center;
+    line-height: 1.5;
+}
+#productDetail .price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #316601;
+}
+#productDetail button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#productDetail button:hover {
+    background-color: #316601;
+}
+
+
 
