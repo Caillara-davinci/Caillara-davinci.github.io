@@ -98,7 +98,6 @@ header {
       color: #fff;
   }
 }
-
   
   /* Cart Icono y Total */
 
@@ -230,6 +229,7 @@ header {
   .orderBy select {
     padding: 2px 4px;
   }
+
   @media(max-width: 500px) {
     .orderBy{
       flex-direction: column;
@@ -382,4 +382,108 @@ header {
 }
 
 
+/* Dialog Checkout */
 
+.dialogCheckout {
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: #f9f9f9;
+}
+
+.dialogCheckout form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dialogCheckout fieldset {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dialogCheckout fieldset:first-of-type {
+  margin-top: 16px;
+}
+
+.dialogCheckout label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9em;
+  margin-bottom: 16px;
+}
+
+.dialogCheckout input, 
+.dialogCheckout select {
+  padding: 8px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+.dialogCheckout button {
+  padding: 10px;
+  font-size: 1em;
+  color: #fff;
+  background: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dialogCheckout button[type="button"] {
+  background: #dc3545;
+}
+
+.dialogCheckout button:hover {
+  opacity: 0.9;
+}
+
+
+/* Banner publicidad */
+
+#bannerOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+#bannerPublicidad {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+}
+
+#bannerPublicidad img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+#bannerPublicidad button {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
