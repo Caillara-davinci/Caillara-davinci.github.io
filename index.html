@@ -44,31 +44,34 @@
             <option value="desc">Mayor a Menor</option>
         </select>
       </div>
-      <div id="productos" class="product-container">
-
-      </div>
+      <div id="productos" class="product-container"></div>
     </main>
 
     <!-- Modal para Detalle del Producto -->
     <dialog id="productModal" class="dialogDetail">
         <h2>Detalle del Producto</h2>
-        <div id="productDetail">
-
-        </div>
+        <div id="productDetail"></div>
         <button class="cerrarDialog" onclick="tienda.cerrarModal('productModal')">X</button>
     </dialog>
 
     <!-- Modal para Carrito -->
     <dialog id="cartModal" class="dialogCart">
         <h2>Mi Carrito</h2>
-        <div id="cartDetail">
-
-        </div>
+        <div id="cartDetail"></div>
         <div class="footerCart">
             <span id="totalCarrito"></span>
             <button id="botonVaciarCarrito" onclick="tienda.vaciarCarrito()">Vaciar Carrito</button>
+            <div id="checkoutContainer" style="display: none;">
+                <button id="checkoutButton" onclick="tienda.mostrarCheckout()">Continuar con la compra</button>
+            </div>
         </div>
         <button class="cerrarDialog" onclick="tienda.cerrarModal('cartModal')">X</button>
+    </dialog>
+
+    <!-- Modal para Checkout -->
+    <dialog id="checkoutModal" class="dialogCheckout">
+        <h2>Checkout</h2>
+        <form id="checkoutForm"></form>
     </dialog>
 
     <footer>
